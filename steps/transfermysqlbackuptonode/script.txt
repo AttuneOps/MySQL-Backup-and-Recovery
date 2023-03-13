@@ -1,0 +1,1 @@
+scp -p {backupDirectory}{database}*.sql {rootUser.user}@{mysqlBackupNode.ip}:{backupDirectory}

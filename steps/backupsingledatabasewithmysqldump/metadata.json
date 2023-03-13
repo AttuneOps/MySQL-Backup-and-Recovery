@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "backupsingledatabasewithmysqldump", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "closeandlockalltablesineverydatabase"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "dumpmysqldatabase"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "unlocktables"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "transfermysqlbackuptonode"
+        }
+    ], 
+    "name": "Backup Single Database with mysqldump", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

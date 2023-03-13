@@ -1,0 +1,6 @@
+{
+    "key": "database", 
+    "name": "Database", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

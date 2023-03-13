@@ -1,0 +1,9 @@
+fileDate=$(date "+%y%m%d_%H%M")
+
+mkdir -vp {backupDirectory}
+if [ -f {backupDirectory}{database}*.sql ]
+then
+    rm -vrf {backupDirectory}{database}*.sql
+fi
+mysqldump -v --set-gtid-purged=OFF \
+    {database} > {backupDirectory}{database}_$fileDate.sql

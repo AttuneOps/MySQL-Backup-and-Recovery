@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "restoredatabasewithmysqldump", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "restorebackupdatabase"
+        }
+    ], 
+    "name": "Restore Database with mysqldump", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
