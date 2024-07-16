@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "9d591ed2-c5ca-4904-a126-d2f8417ad63c", 
     "interpreter": 1, 
     "key": "dumpmysqldatabase", 
     "name": "Dump MySQL Database", 

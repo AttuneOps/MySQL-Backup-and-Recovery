@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "4f51ef73-7c0b-425a-8ad0-e05aca2ecb8d", 
     "isBlueprint": true, 
     "key": "restoredatabasewithmysqldump", 
     "links": [

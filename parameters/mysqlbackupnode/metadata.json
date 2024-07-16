@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "bf840895-63f4-4703-b700-9e0df4a00ba5", 
     "key": "mysqlbackupnode", 
     "name": "MySQL Backup Node", 
     "showInPlan": true, 

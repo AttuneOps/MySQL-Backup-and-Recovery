@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "b7c63332-5d59-42af-8dee-6c8ee367273d", 
     "interpreter": 1, 
     "key": "restorebackupdatabase", 
     "name": "Restore Backup Database", 

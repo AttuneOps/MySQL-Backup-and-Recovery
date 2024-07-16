@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "d60cd895-a80a-4319-8bcd-88eb12831e83", 
     "interpreter": 1, 
     "key": "unlocktables", 
     "name": "Unlock Tables", 

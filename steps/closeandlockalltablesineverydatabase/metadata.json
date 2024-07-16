@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "44d063a2-db87-4df8-b72d-685092cd3f8a", 
     "interpreter": 1, 
     "key": "closeandlockalltablesineverydatabase", 
     "name": "Close and Lock all Tables in Every Database", 

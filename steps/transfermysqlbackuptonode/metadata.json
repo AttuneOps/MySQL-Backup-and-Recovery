@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "42aedb51-236b-47bd-804c-a183c668afb4", 
     "interpreter": 1, 
     "key": "transfermysqlbackuptonode", 
     "name": "Transfer MySQL Backup to Node", 
